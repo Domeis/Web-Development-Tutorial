@@ -1,0 +1,27 @@
+h3 {
+  color: rgb(6, 6, 238);
+}
+
+.first-title {
+  color: red;
+}
+
+#youtube-link {
+  color: rgb(192, 96, 96);
+}
+
+* {
+  font-size: 20px;
+}
+
+.header {
+  list-style: none;
+}
+
+.header > li {
+  color: blueviolet;
+}
+
+.lols li:nth-child(1) {
+  color: rgb(240, 23, 167);
+}

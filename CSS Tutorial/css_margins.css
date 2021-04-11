@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 50px 20px 30px 100px;
+  background-color: blueviolet;
+}
+
+* {
+  font-size: 1em;
+}
+
+/* font size 62.5% in html with 1 rem = 10 px
+*/

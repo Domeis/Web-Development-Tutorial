@@ -1,0 +1,42 @@
+/* syntax */
+
+h1 {
+  color: red;
+}
+
+.class-name {
+  color: ;
+}
+/* Class */
+#blase {
+}
+/* id  */
+
+.class-name h1 {
+}
+
+* {
+}
+
+.class-name + ul {
+  list-style: none;
+}
+/* selecting something below a class */
+
+ul > li {
+}
+
+/* selecting elements of a parent */
+
+/* margins and padding 
+margins are area outside of the box 
+
+paddings are area inside of the box 
+*/
+
+button {
+  padding: 50px 20px;
+}
+/* first value = top and bottom 
+second value = left and right  
+third and fourth = clockwise */

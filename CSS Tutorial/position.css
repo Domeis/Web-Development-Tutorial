@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  background: cadetblue;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  width: 20%;
+  height: 20%;
+  background: rgb(212, 51, 84);
+}
+.box2 {
+  background: rgb(101, 101, 235);
+  transform: translateX(50%);
+  position: relative;
+  top: 1rem;
+}
+.box3 {
+  background: black;
+}
+
+.box4 {
+    background: violet
+}
+
+.box5 {
+    background: rgb(108, 156, 86)
+}
+
+/* absolute doesn't care about anything, gets ripped out of page; */
+.box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box3 {
+  position: fixed;
+}
+
+.box4 {
+    position: sticky;
+    top: 0%;
+}
+/* adding position relative to a class then manipulating its elements' position manipulates it within the class. 
+However, adding position relative to an element, manipulates its position from its starting positions. 
