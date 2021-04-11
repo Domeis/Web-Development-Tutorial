@@ -1,4 +1,4 @@
 # web-development-tutorial
 
-Web Development tutorials presented at Human Factors Psychology Lab 2020 Winter Study <br>
+Web Development Tutorials Presented at Human Factors Psychology Lab 2020 Winter Study <br>
 Materials from DevEd in Youtube
